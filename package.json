@@ -2,7 +2,7 @@
   "name": "@ashaffer/bind-url",
   "description": "Bind url changes to a callback",
   "repository": "git://github.com/ashaffer/bind-url.git",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
