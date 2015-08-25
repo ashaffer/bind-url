@@ -7,7 +7,17 @@ Bind url changes to a callback
 
 ## Installation
 
-    $ npm install @ashaffer/bind-url
+    $ npm install bind-url
+
+## Usage
+
+```javascript
+bindUrl({wnd: window, root: document.body}, function (url) {
+  // Do something with the new url
+})
+```
+
+The first parameter is an object with two values, `wnd` expects a window object (or some mock thereof if you're on the server), and `root` expects the root element upon which you wish to capture link clicks - if not specified, defaults to window.  The second argument is a callback that should receive all changes to the url, provided you don't do something like manually calling pushState.
 
 ## License
 

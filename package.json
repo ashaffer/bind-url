@@ -1,5 +1,5 @@
 {
-  "name": "@ashaffer/bind-url",
+  "name": "bind-url",
   "description": "Bind url changes to a callback",
   "repository": "git://github.com/ashaffer/bind-url.git",
   "version": "0.1.1",
