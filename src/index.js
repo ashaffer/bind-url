@@ -21,7 +21,7 @@ function bindUrl ({wnd, root}, cb) {
 
   function update () {
     const {pathname, search} = wnd.location
-    cb([pathname, search].filter(Boolean).join('?'))
+    cb([pathname, search].filter(Boolean).join(''))
   }
 
   function pushState (url) {
